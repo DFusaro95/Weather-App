@@ -1,0 +1,109 @@
+.country__box{
+  max-width: 600px;
+  display: grid;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  max-height: 90vh;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1fr 0.2fr 1fr;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.5);
+}
+.country__info{
+  font-family: 'Ubuntu', sans-serif;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  margin: 5px;
+}
+.country__icon{
+  font-size: 10px;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.country__img{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  margin: 5px;
+  height: 150px;
+  width: 150px;
+}
+.temperature__deg{
+  font-family: 'Raleway', sans-serif;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  display:flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin: 5px;
+
+}
+.country__button{
+  margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  padding: 10px 30px;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+  border: none;
+  cursor: pointer;
+  animation: fadeIn;
+  animation-duration: 2s;
+}
+.country__list{
+  margin: 5px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+.country__sky{
+  margin: 10px 0px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+.list__info{
+  margin: 10px;
+  list-style: none;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 15px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+.country__wind{
+  margin: 0;
+
+}
+.country__humidity{
+  margin: 0;
+
+}
+.country__pressure{
+  margin: 0;
+
+}
